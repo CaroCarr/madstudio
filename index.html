@@ -1,0 +1,278 @@
+<!doctype html>
+<html lang="en">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    
+  <!--mi css-->
+    <link rel="stylesheet" a href="./css/style.css">
+
+<head>
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+
+
+    <title>Mad! Studio</title>
+     <link rel="shortcut icon" href="../Clase14/imagenes_bs/favicon.jpg">
+    
+    </head>
+     
+ <!--inicio nav--> 
+  <body id="botonera" class="bg-black">
+
+<nav class="p-3 bg-dark text-white navbar navbar-expand-lg">
+  <div class=></div>
+  <div class="container-fluid">
+    <a class="navbar-brand text-white" href="index.html">MAD!</a>
+    <img scr="./Clase14/imagenes_bs/headp.svg" alt="logo">
+  </a>
+    <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav-nav"> 
+      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active text-white" aria-current="page" href="./views/estudio.html">Estudio de Grabación</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-white" href="./views/salasdeensayo.html">Salas de Ensayo</a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-white" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            Clases
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="../clase14/guitarra.html">Guitarra</a></li>
+            <li><a class="dropdown-item" href="../clase14/piano.html">Piano</a></li>
+            <li><hr class="dropdown-divider"></li>
+            <li><a class="dropdown-item" href="../clase14/tecnica.html">Técnica Vocal</a></li>
+          </ul>
+        </li>
+        
+      </ul>
+      <form class="d-flex">
+        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-light text-white" type="submit">Search</button>
+      </form>
+    </div>
+  </div>
+</nav>
+<!-- fin nav-->
+
+
+
+<!-- inicio carousel-->
+
+<div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    <button type="button" data-bs-target="#carousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="./imagenes_bs/alumn.jpg" class="d-block w-100" alt="alumnos">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes_bs/acompanamiento.jpg" class="d-block w-100" alt="acompañamiento">
+    </div>
+    <div class="carousel-item">
+      <img src="./imagenes_bs/bateria.jpg" class="d-block w-100" alt="bateria">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+</div>
+       <!-- fin Carousel-->
+
+ 
+<!--inicio texto-->
+
+<div class="contenedor-a bg-black text-white">
+<div>
+<p class="text-sm-center text-md-start text-lg-end"></p id="texto_animacion">
+    <h1>Hello, Mad!</h1>  
+<p class="text-md-start">Start aligned text on viewports sized MD (medium) or wider.</p>
+<p class="text-lg-start">Start aligned text on viewports sized LG (large) or wider.</p>
+<p class="text-xl-start">Start aligned text on viewports sized XL (extra-large) or wider.</p>
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!--fin texto-->
+
+    <!-- columnas con grid bs-->
+    <main>
+      <section class="bg-black">
+        <div class="col">
+  <article class="col-md-6 col-lg-3 container-fluid">
+<div class="row">Guitarra</div>
+<button type="button" class="btn btn-outline-light">Guitarra</button>
+   <img src="./imagenes_bs/guitar.jpg" class="d-block w-40 img-thumbnail" alt="guitarra">
+    <div class="col">Bateria</div>
+    <button type="button" class="btn btn-outline-light">Bateria</button>
+     <img src="./imagenes_bs/bateria.jpg" class="d-block w-40 img-thumbnail" alt="bateria">
+    <div class="col">Tecnica Vocal</div>
+    <button type="button" class="btn btn-outline-light">Técnica Vocal</button>
+    <img src="./imagenes_bs/canto.jpg" class="d-block w-40 img-thumbnail" alt="tecnica vocal">
+    <div class="col">Piano</div>
+    <button type="button" class="btn btn-outline-light">Piano</button>
+    <img src="./imagenes_bs/piano.jpg" class="d-block w-40 img-thumbnail" alt="piano">
+    <div class="col">Dj</div>
+    <button type="button" class="btn btn-outline-light">Dj</button>
+    <img src="./imagenes_bs/djset.jpg" class="d-block w-40 img-thumbnail" alt="piano">
+    </div>
+  </div>
+</article>
+</main>
+    
+
+<!-- fin grids bs-->
+
+
+
+<!-- inicio form-->
+
+<div class="col-sm-12 col-md-6 col-lg-3">
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+  </div>
+  <div class="col">
+    <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+  </div>
+  <div class="form-floating">
+    <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+    <label for="floatingTextarea2">Comentario</label>
+    </article>
+</div>
+
+<!--ends form-->
+
+
+
+
+
+<div>
+<section class="py-3 bg-black">
+<div class="row">
+  <article class="col-sm-12 col-md-12 col-lg-8">
+    <img src="./imagenes_bs/musica.jpg" class="w-50" alt="perrito" c>
+</article>
+</div>
+</div>
+
+
+
+
+
+
+  <!--comienzo footer-->
+ <footer class="text-center text-lg-start border border-white mt-xl-5 pt-4">
+  <div class="p-3 mb-2 bg-black text-white"></div>
+    <!-- Grid container -->
+    <div class="container p-4">
+      <!--Grid row-->
+      <div class="row">
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Mundo Mad</h5>
+
+          <ul class="list-unstyled mb-4">
+            <li>
+              <a href="../index.html" class="text-white">About us</a>
+            </li>
+            <li>
+              <a href="../index.html" class="text-white">Alumnos</a>
+            </li>
+            <li>
+              <a href="../index.html" class="text-white">Reservas de Sala</a>
+            </li>
+            <li>
+              <a href="../index.html" class="text-white">Grabación de Discos y Demo</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column-->
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text mb-4"></h5>
+
+          <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Carreras</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white"></a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Clase de Prueba</a>
+            </li>
+            <li>
+              <a href="#!" class="text-white"></a>
+            </li>
+            <li>
+              <a href="#!" class="text-white">Contact us</a>
+            </li>
+          </ul>
+        </div>
+        <!--Grid column-->
+
+        <!--Grid column
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Careers</h5>
+
+         <ul class="list-unstyled">
+            <li>
+              <a href="#!" class="text-white">Jobs</a>
+            </li>
+          </ul>
+        </div>
+        Grid column-->
+
+        <!--Grid column suscripcion
+        <div class="col-lg-3 col-md-6 mb-4 mb-lg-0">
+          <h5 class="text-uppercase mb-4">Sign up to our newsletter</h5>
+
+          <div class="form-outline form-white mb-4">
+            <input type="email" id="form5Example2" class="form-control" />
+            <label class="form-label" for="form5Example2">Email address</label>
+          </div>
+
+          <button type="submit" class="btn btn-outline-white btn-block">Subscribe</button>
+        </div>
+        Grid column-->
+      </div>
+      <!--Grid row-->
+    </div>
+    <!-- Grid container -->
+
+    <div class="iframe">
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.553022770097!2d-66.33786248509635!3d-33.30435479741459!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d4395597fa7c4b%3A0x3c4d72252522de46!2sRivadavia%20581%2C%20D5700%20San%20Luis!5e0!3m2!1ses-419!2sar!4v1654546386923!5m2!1ses-419!2sar" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+</div>
+
+    <!-- Copyright -->
+    <div class="text-center p-3 border-top border-white">
+      © 2022 Copyright:
+      <a class="text-white" href="./views/monsterdesign.html">MonsterDesign.com.ar</a>
+    </div>
+    <!-- Copyright -->
+  </footer>
+  
+</div>
+  <!-- Option 1: Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+  </body>
+</html>
